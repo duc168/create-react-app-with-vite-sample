@@ -14,5 +14,6 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src')
     }
-  }
+  },
+  base: '/create-react-app-with-vite-sample/',
 })
